@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b784b1aad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/Users/kheirbalabis20/Desktop/Portfolio/Images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Kheir Balabis</span><br>A Technical Support Specialist</h1>
+            <h2>based in Philippines.</h2>
+        </div>
+    </div>
+</div>
+<!-- -------- about ------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/Users/kheirbalabis20/Desktop/Portfolio/Images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Kheir Balabis, and I am a Technical Support Specialist and a Social Media Manager. I have many years of experience in both fields and am highly knowledgeable in a variety of technology and social media platforms.
+                    <br><br>
+                    I have extensive experience in troubleshooting computer systems and networks and providing technical support to customers. I am also well-versed in managing social media accounts and creating content that is engaging and drives online traffic and engagement. I have a strong understanding of how to develop and implement effective social media campaigns that generate leads and increase visibility.
+                    <br><br>
+                    I am an organized, detail-oriented individual with excellent communication and problem-solving skills. I am passionate about helping people and am committed to providing quality technical support and social media management. I am confident that my skills and experience make me an excellent fit for any role requiring technical support or social media expertise. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer Web Interfaces</li>
+                            <li><span>Social Media Manager</span><br>Graphic Designer and Video Editor</li>
+                            <li><span>Customer Service</span><br>Resolving Technical Support Issue</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Technical Support Specialist</span><br>Providing technical assistance to customers via chat, email. and call. This involves troubleshooting paltform issues and 
+                                providing comprehensive support to customers. I must also ensure that customer service is maintained at a high-level
+                                by resolving customer queries in a timely and efficient manner. Additionally, I am responsible for maintaining up to date
+                                knowledge of the products and services offered by the company, as well as any changes in policies or procedures. Lastly, 
+                                I must be able to work collaboratively with other team members to come up with effective solutions for customers.</li>
+                            <li><span>Design Engineer</span><br>I'm responsible for the design and implementation of the company's cabling ex. Ethernet, Fiber Optic, Door Locking Mechanism, CCTV and FDAS infrastructure. This includes planning and designing the cabling system, selecting the appropriate cabling and components, and installing and testing the cabling system. I'm able to troubleshoot a n d resolve cabling issues a s well using different tools like Multimeter, cable tester, etc.</li>
+                            <li><span>IT Instructor</span><br>I typically teach K-12 students & college students about various aspects ofinformation technology. This may include topics such as computer programming, web design, and database
+                                management. Ialso teach classes on how to use specific software applications and hardware components.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>AMA University Mandaluyong</span><br>Bachelor of Science in Information Technology<br>California Garden Square, Domingo M. Guevarra Street, Mandaluyong, 1550 Metro Manila<br>May 2013 - March 2017 (4 years)<br>GPA: 2.25</li>
+                            <li><span>Ridpath Academy of Mabuhay</span><br>Secondary Education<br>Blk161 Lot, 1 Mamatid Rd, Cabuyao, Laguna<br>June 2009 - June 2013</li>
+                            <li><span>Today's Kids Creative Learning Center</span><br>Primary Education<br>Blk161 Lot, 1 Mamatid Rd, Cabuyao, Laguna<br>June 2003 - June 2009</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>  
+    </div>
+</div>
+<!--  ---------services------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-pen-ruler"></i> <!-- 1st Icon -->
+                <h2>Graphic Design</h2>
+                <p>Creates visuals for social media platforms such as Twitter, Facebook, Instagram, and other similar platforms. I'm responsible for creating visuals and content that will be engaging to the target audience and will help to promote your brand or organization. I am able to design visuals that will capture the attention of the viewer, as well as be able to create a story and narrative that will be interesting and engaging. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-tie"></i> <!-- 2nd Icon -->
+                <h2>IT Support</h2>
+                <p>Provide technical assistance to users of computer hardware and software. This may include responding to inquiries, providing troubleshooting assistance, maintaining system security, and providing technical training and support. IT support staff may also help to install, configure, and maintain computer hardware, software, and networks, as well as provide advice and assistance to users in person, by telephone, or by email.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-headphones"></i> <!-- 3rd Icon -->
+                <h2>Data Entry</h2>
+                <p>The services include entering data from paper documents, forms, or reports into a computer system. As well as entering data from websites and mobile apps, other digital sources can be considered. Verifies the accuracy and completeness of data, ensures data integrity, and troubleshoots data entry errors. It may also include more complex tasks, such as data analysis, data mining, and data manipulation.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------Portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/Users/kheirbalabis20/Desktop/Portfolio/Images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> Be Seen and Heard: Boost Your Reach with this Social Media Design</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Users/kheirbalabis20/Desktop/Portfolio/Images/work-2.png">
+                <div class="layer">
+                    <h3>Social Media Design</h3>
+                    <p> Be Seen and Heard: Boost Your Reach with this Social Media Design</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Users/kheirbalabis20/Desktop/Portfolio/Images/work-3.png">
+                <div class="layer">
+                    <h3>Social Media WebApp</h3>
+                    <p> Be Seen and Heard: Boost Your Reach with this Social Media Design</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Users/kheirbalabis20/Desktop/Portfolio/Images/work-4.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> Be Seen and Heard: Boost Your Reach with this Social Media Design</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--- ----------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kheirbalabis27@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+63 950 344 3692</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kheir.balabis"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/KHHHHHRR"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/kheirbalabis/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kheirjonh-jeisrael-balabis-2a88a8244/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="/Users/kheirbalabis20/Desktop/Portfolio/Images/KheirBalabis_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Kheirjonh Jeisrael Balabis. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    } 
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzjXfmi-b4oxLBU9Fj71y1E7FMfzpMOZwTHT0OpqCyKdpiEwNhGXrmvMmhNQAnCbDZlGQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
